@@ -9,8 +9,8 @@ namespace App.Tests
     public class AppBuilderTests
     {
         private const string PublisherName = "YourAppName";
-        private Mock<IPublisher> mockedPublisher;
-        private Mock<IConsole> mockedConsole;
+        private readonly Mock<IPublisher> mockedPublisher;
+        private readonly Mock<IConsole> mockedConsole;
 
         public AppBuilderTests()
         {

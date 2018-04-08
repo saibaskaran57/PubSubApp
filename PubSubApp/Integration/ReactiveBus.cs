@@ -7,7 +7,7 @@
 
     internal sealed class ReactiveBus : IBus<string>
     {
-        private readonly ISubject<string    > queue;
+        private readonly ISubject<string> queue;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ReactiveBus"/> class.

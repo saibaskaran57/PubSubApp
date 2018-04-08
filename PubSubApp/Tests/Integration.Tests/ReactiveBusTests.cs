@@ -10,7 +10,8 @@
     public class ReactiveBusTests
     {
         private const string Message = "Hello World";
-        private Mock<ISubject<string>> mockedQueue;
+
+        private readonly Mock<ISubject<string>> mockedQueue;
 
         public ReactiveBusTests()
         {
